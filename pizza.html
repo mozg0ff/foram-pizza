@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="image/icon3.png" type="image/png">
+
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+
+<!-- header section starts -->
+
+
+<!-- Тут должен быть Логотип -->
+ <header class="header">
+<a href="index.html" >
+    <img src="image/1.png" style="width: 100px; height: auto;" alt="">
+</a>
+
+<!-- <img class="hero" src="image/10.png" alt=""> -->
+
+
+<nav class="navbar">
+    <a href="index.html">Главная</a>
+    <a href="#about">О нас</a>
+    <a href="#menu">Меню</a>
+    <!-- <a href="#products">Продукты</a> -->
+    <a href="#review">Обзор</a>
+    <!-- <a href="#blog">Блог</a> -->
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="icons">
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-bars" id="menu-btn"></div>
+</div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Найти продукт...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/2.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 1</h3>
+                <div class="price">45 COM/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/3.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 2</h3>
+                <div class="price">40 COM/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/4.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 3</h3>
+                <div class="price">45 COM/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Оплатить</a>
+    </div>
+
+
+
+</header>
+<!-- header section ends -->
+
+<!-- category pizza starts -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading" style="padding-top: 60px;"> Наше <span>меню</span> </h1>
+
+    <div class="box-container">
+
+        <a href="#pizza">
+            <div class="content _anim-show box">
+                <img src="image/category/1.png" style="width: 200px; height: auto; " alt="">
+                <h1>Пиццы</h1>
+                <p>Душанбе, баварская, Француское ассорти, Итальянское ассорти, форам...</p>
+            </div>
+        </a>
+
+
+<a href="#calcone">
+    <div class="content _anim-show box">
+        <img src="image/category/3.png" style="width: 200px; height: auto;" alt="">
+        <h1>Кольцоне</h1>
+        <p>деревенская, сырная, атальянское ассорти, цыпленок BBQ, четыре сыра...</p>
+        <!-- <a href="#" class="btn">Переходить</a> -->
+    </div> 
+</a>
+
+<a href="#soup">
+    <div class="content _anim-show box">
+        <img src="image/category/6.png" style="width: 200px; height: auto;" alt="">
+        <h1>Супы</h1>
+        <p>суп "Мержмек", суп "грибный", суп "кукурузный", суп "куриный с лапшой..."</p>
+    </div> 
+</a>
+
+<a href="#cartofelbox">
+    <div class="content _anim-show box">
+        <img src="image/category/9.png" style="width: 200px; height: auto;" alt="">
+        <h1>Картофель</h1>
+        <p>Супрем фри, карри фри, фри BBQ, деревенский с курицей, чили-фри-сыр, токио стрит фри...</p>
+    </div> 
+</a>
+
+<a href="#garnish">
+    <div class="content _anim-show box">
+        <img src="image/category/10.png" style="width: 200px; height: auto;" alt="">
+        <h1>Гарниры</h1>
+        <p>картошка фри, картошка по деревенский, куриные наггетцы, хлебные палочки, пельмени жареные...</p>
+    </div> 
+</a>
+
+    </div>
+
+</section>
+
+<!-- category pizza ends -->
+
+
+
+
+
+
+<!-- menu section starts -->
+
+<section class="pizza" id="pizza">
+
+    <h1 class="heading" >Пиццы <span> pizza</span></h1>
+
+    <div class="pizza-container">
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/1.png" style="width: 200px; height: auto;" alt="">
+            <h3>маргарита</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 34c./41c./48c./54c. </div>
+            <p>сыр моцарелла, соус из помидора, помидоры, орегано</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/2.png" style="width: 200px; height: auto;" alt="">
+            <h3>Душанбе</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 56c./66c./76c./86c. </div>
+            <p>сыр моцарелла, соус из помидора, помидор, огненный бон филе</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/3.png" style="width: 200px; height: auto;" alt="">
+            <h3>Баварская</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 44c./49c./54c./64c. </div>
+            <p>сыр моцарелла, шампиньёны, пеперони, баварсие колбаски, помидор, маслины, бол. перец</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/4.png" style="width: 200px; height: auto;" alt="">
+            <h3>Француское ассорти</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 49c./56c./69c./79c. </div>
+            <p>помидор, бон-филе, болгар-перец, огурцы, сыр моцарелла, фирменный соус</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/5.png" style="width: 200px; height: auto;" alt="">
+            <h3>Итальянское ассорти</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 50c./60c./70c./80c. </div>
+            <p>сыр моцарелла, сосиски барбекю, соус из помидора, пеперони, шампиньены, кур-филе, бол-перец, помидор, базилик </p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/6.png" style="width: 200px; height: auto;" alt="">
+            <h3>форам</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 42c./50c./60c./70c. </div>
+            <p>сыр моцарелла, соус из помидора, маргарита, четыре сыра, пицца мясной</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/7.png" style="width: 200px; height: auto;" alt="">
+            <h3>ассорти</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 46c./56c./66c./76c. </div>
+            <p>сыр моцарелла, соус из помидора, шампиньены, фарш говяжий, пеперони, баварские калбаски, маслины, бол-перец</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/8.png" style="width: 200px; height: auto;" alt="">
+            <h3>четыре мяса</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 56c./66c./76c./86c. </div>
+            <p>сыр моцарелла, фирменный соус, фарш говяжий, копченый куриный бон филе, куриный филе, болгарский перец, помидор</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/9.png" style="width: 200px; height: auto;" alt="">
+            <h3>пицца с сосиками</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 34c./43c./49c./53c. </div>
+            <p>сыр моцарелла, соус из помидора, сосиски, базилик, помидор</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/10.png" style="width: 200px; height: auto;" alt="">
+            <h3>цыпленок BBQ</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 37c./47c./57c./67c. </div>
+            <p>цыпленок, соус барбекю, томатный соус, красный лук, сыр моцарелла</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/11.png" style="width: 200px; height: auto;" alt="">
+            <h3>шесть сыра</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 59c./69c./79c./89c. </div>
+            <p>соус сырно-чесночный, моцарелла, дор блю, гауда, чеддер, сулугуни, пармезан</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/13.png" style="width: 200px; height: auto;" alt="">
+            <h3>сырная</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 38c./44c./54c./60c. </div>
+            <p>сыр дабл моцарелла, соус из помидора</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/14.png" style="width: 200px; height: auto;" alt="">
+            <h3>четыре сыра</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 49c./57c./69c./79c. </div>
+            <p>сыр моцарелла, сливки, сыр дор блю, сыр чеддер, сыр пармезан, греческий орех</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/15.png" style="width: 200px; height: auto;" alt="">
+            <h3>куриная</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 35c./42c./52c./62c. </div>
+            <p>сыр моцарелла, соус из помидора, капч-курица, шампиньены, маслины, большой перец</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/16.png" style="width: 200px; height: auto;" alt="">
+            <h3>мясная</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 42c./49c./59c./69c. </div>
+            <p>сыр моцарелла, соус из помидора, шампиньены, кур-филе, фарш говяжий</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/17.png" style="width: 200px; height: auto;" alt="">
+            <h3>Пицца ханская</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 53c./63c./73c./83c. </div>
+            <p>сыр моцарелла, соус из помидора, куриная мяса (тандури), казы из конины, фирменный соус</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/18.png" style="width: 200px; height: auto;" alt="">
+            <h3>деревенская</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 39c./49c./56c./62c. </div>
+            <p>сыр моцарелла, соус из помидора, грибы, помидор, маринованые огурцы, красный лук, картошка, куриный филе, чисночный соус</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/19.png" style="width: 200px; height: auto;" alt="">
+            <h3>пепперони</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 37c./46c./53c./60c. </div>
+            <p>сыр моцарелла, соус из помидора, пепперони, маслины</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/20.png" style="width: 200px; height: auto;" alt="">
+            <h3>дабл пепперони</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 46c./54c./58c./62c. </div>
+            <p>сыр моцарелла, соус из помидора, пепперони 2х, маслины</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box2">
+            <img src="image/pizza/21.png" style="width: 200px; height: auto;" alt="">
+            <h3>грибная & пеперони</h3>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">24 &Oslash;/28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 39c./56c./66c./76c. </div>
+            <p>сыр моцарелла, соус из помидора, шампиньены, пепперони, маслины</p>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    </div>
+</section>
+
+<section class="calcone" id="calcone">
+
+    <h1 class="heading">Кольцоне <span>Calzone</span></h1>
+    
+    <div class="calcone-container">
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/5.png" style="width: 200px; height: auto;" alt="">
+            <h3>ассорти</h3>
+            <p>сыр моцарелла, соус из помидора, шампиньены, фарш говяжий, пеперони, баварсие калбаски, маслины, бол-перец</p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 33c./43c./47c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/1.png" style="width: 200px; height: auto;" alt="">
+            <h3>мясная</h3>
+            <p>сыр моцарелла, соус из помидора, шампиньены, кур-филе, фарш говяжий</p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 28c./38c./43c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/2.png" style="width: 200px; height: auto;" alt="">
+            <h3>пепперони</h3>
+            <p>сыр моцарелла, соус из помидора, пепперони, помидоры</p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 31c./34c.37c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/3.png" style="width: 200px; height: auto;" alt="">
+            <h3>четыре сыра</h3>
+            <p>сыр моцарелла, сливки, сыр дор блю, сыр чеддер, сыр пармезан, греческий орех </p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 36c./41c.50c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/4.png" style="width: 200px; height: auto;" alt="">
+            <h3>сырная</h3>
+            <p>сыр дабл моцарелла, соус из помидора</p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 30c./33c.36c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/6.png" style="width: 200px; height: auto;" alt="">
+            <h3>деревенская</h3>
+            <p>сыр моцарелла, соус из помидора, грибы, помидор, марин-огурцы, красный лук, картошка, кур-филе, чесночный соус</p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 33c./37c.40c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/7.png" style="width: 200px; height: auto;" alt="">
+            <h3>кальцоне с сосиками</h3>
+            <p>сыр моцарелла, соус из помидора, шампиньены, кур-филе, фарш говяжий</p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 29c./33c.37c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/8.png" style="width: 200px; height: auto;" alt="">
+            <h3>куриная</h3>
+            <p>сыр моцарелла, соус из помидора, капч-курица, шампиньены, маслины, бол-перец</p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 33c./37c.40c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/9.png" style="width: 200px; height: auto;" alt="">
+            <h3>чизбургер</h3>
+            <p>томатный соус, сыр моцарелла, фарш, сыр чеддер, марин-огурцы, помидор, крас лук</p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 34c./36c.43c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    
+        <div class="content _anim-show box6">
+            <img src="image/calcone/10.png" style="width: 200px; height: auto;" alt="">
+            <h3>цыпленок BBQ</h3>
+            <p>цыпленок, соус-барбекю, томатный соус, красный лук, сыр моцарелла</p>
+            <div class="price"><span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">28 &Oslash;/32 &Oslash;/36 &Oslash;</span> 32c./36c.40c. </div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    </div>
+    </section>
+
+    <section class="soup" id="soup">
+
+        <h1 class="heading">Супы <span>soups</span></h1>
+        
+        <div class="soup-container">
+        
+            <div class="content _anim-show box8">
+                <img src="image/soups/1.png" style="width: 150px; height: auto;" alt="">
+                <h3>Мержмек</h3>
+                <div class="price">цена: 15c.</div>
+                <a href="#" class="btn">добавить</a>
+            </div>
+        
+            <div class="content _anim-show box8">
+                <img src="image/soups/2.png" style="width: 200px; height: auto;" alt="">
+                <h3>грибной</h3>
+                <div class="price">цена: 15c.</div>
+                <a href="#" class="btn">добавить</a>
+            </div>
+        
+            <div class="content _anim-show box8">
+                <img src="image/soups/3.png" style="width: 200px; height: auto;" alt="">
+                <h3>куриный с лапшой</h3>
+                <div class="price">цена: 15c.</div>
+                <a href="#" class="btn">добавить</a>
+            </div>
+        
+            <div class="content _anim-show box8">
+                <img src="image/soups/4.png" style="width: 200px; height: auto;" alt="">
+                <h3>кукурузный</h3>
+                <div class="price">цена: 15c.</div>
+                <a href="#" class="btn">добавить</a>
+            </div>
+        </div>
+        </section>
+
+        <section class="cartofelbox" id="cartofelbox">
+
+            <h1 class="heading">Картофель с начионкой<span> stuffed potatoes</span></h1>
+            
+            <div class="cartofelbox-container">
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/1.png" style="width: 150px; height: auto;" alt="">
+                    <h3>Фри BBQ</h3>
+                    <p>картошка по деревенский, фарш говяжий, сыр, огурцы, соус BBQ</p>
+                    <div class="price"><span class="spancolor">215г.</span> цена: 28c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/2.png" style="width: 150px; height: auto;" alt="">
+                    <h3>Фри с грибами</h3>
+                    <p>грибы, сыр моцарелла, соус сливочный</p>
+                    <div class="price"><span class="spancolor">200г.</span> цена: 24c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/4.png" style="width: 150px; height: auto;" alt="">
+                    <h3>Карри фри</h3>
+                    <p>картошка по деревенский, кур-филе, спец-карри соус</p>
+                    <div class="price"><span class="spancolor">200г.</span> цена: 23c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/5.png" style="width: 150px; height: auto;" alt="">
+                    <h3>Токио стрит фри</h3>
+                    <p>свит чили соус, морковь, красный лук, соус сырный</p>
+                    <div class="price"><span class="spancolor">210г.</span> цена: 23c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/6.png" style="width: 150px; height: auto;" alt="">
+                    <h3>фри по вегетарианский</h3>
+                    <p>помидор, огурцы, томатный соус, соус форам, зелень</p>
+                    <div class="price"><span class="spancolor">210г.</span> цена: 23c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/7.png" style="width: 150px; height: auto;" alt="">
+                    <h3>деревенский с курицей</h3>
+                    <p>анзурный лук, красный лук, кур-филе, соус, паприка</p>
+                    <div class="price"><span class="spancolor">217г.</span> цена: 23c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/8.png" style="width: 150px; height: auto;" alt="">
+                    <h3>супрем фри</h3>
+                    <p>фри, наггетцы, сыр, помидор, огурцы, соус</p>
+                    <div class="price"><span class="spancolor">215г.</span> цена: 24c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/9.png" style="width: 150px; height: auto;" alt="">
+                    <h3>французкий стиль</h3>
+                    <p>фри, фирменный соус, соус томатный, крылышки</p>
+                    <div class="price"><span class="spancolor">250г.</span> цена: 30c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/10.png" style="width: 150px; height: auto;" alt="">
+                    <h3>чили, сыр, фри</h3>
+                    <p>помидор черри, сыр моцарелла, зелень, соус-чили </p>
+                    <div class="price"><span class="spancolor">200г.</span> цена: 23c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            
+                <div class="content _anim-show box10">
+                    <img src="image/cartofel/3.png" style="width: 150px; height: auto;" alt="">
+                    <h3>по деревенский</h3>
+                    <p>картофель, моцарелла, соус, перец</p>
+                    <div class="price"><span class="spancolor">200г.</span> цена: 23c.</div>
+                    <a href="#" class="btn">добавить</a>
+                </div>
+            </div>
+            </section>
+
+            <section class="garnish" id="garnish">
+
+                <h1 class="heading">Гарниры <span>,стрипсы</span>, крылышки</h1>
+                
+                <div class="garnish-container">
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/garnish/2.png" style="width: 200px; height: auto;" alt="">
+                        <h3>картошка по деревенский</h3>
+                        <div class="price"><span class="spancolor">140г.</span> цена: 17c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/garnish/3.png" style="width: 150px; height: auto;" alt="">
+                        <h3>хлебные палочки</h3>
+                        <div class="price"><span class="spancolor">140г.</span> цена: 15c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/garnish/4.png" style="width: 250px; height: auto;" alt="">
+                        <h3>пельмени жареные</h3>
+                        <div class="price"><span class="spancolor">140г./280г.</span> цена: 16c./26c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/garnish/6.png" style="width: 250px; height: auto;" alt="">
+                        <h3>куриные наггетцы</h3>
+                        <div class="price"><span class="spancolor">130г.</span> цена: 19c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/garnish/7.png" style="width: 150px; height: auto;" alt="">
+                        <h3>картофель фри</h3>
+                        <div class="price"><span class="spancolor">140г.</span> цена: 16c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/strips/3.png" style="width: 150px; height: auto;" alt="">
+                        <h3>стрипсы классик</h3>
+                        <div class="price"><span class="spancolor">200г.</span> цена: 28c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/strips/4.png" style="width: 150px; height: auto;" alt="">
+                        <h3>стрипсы баффало</h3>
+                        <div class="price"><span class="spancolor">200г.</span> цена: 31c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/strips/2.png" style="width: 150px; height: auto;" alt="">
+                        <h3>тайские стрипсы/h3>
+                        <div class="price"><span class="spancolor">200г.</span> цена: 31c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/strips/1.png" style="width: 150px; height: auto;" alt="">
+                        <h3>стрипсы с перчинкой</h3>
+                        <div class="price"><span class="spancolor">200г.</span> цена: 31c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/garnish/8.png" style="width: 150px; height: auto;" alt="">
+                        <h3>классик</h3>
+                        <div class="price"><span class="spancolor">350г.</span> цена: 36c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/garnish/9.png" style="width: 150px; height: auto;" alt="">
+                        <h3>баффало</h3>
+                        <div class="price"><span class="spancolor">350г.</span> цена: 36c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/garnish/10.png" style="width: 150px; height: auto;" alt="">
+                        <h3>крылышки с перчинкой</h3>
+                        <div class="price"><span class="spancolor">350г.</span> цена: 36c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                
+                    <div class="content _anim-show box11">
+                        <img src="image/garnish/11.png" style="width: 150px; height: auto;" alt="">
+                        <h3>тайские</h3>
+                        <div class="price"><span class="spancolor">350г.</span> цена: 36c.</div>
+                        <a href="#" class="btn">добавить</a>
+                    </div>
+                </div>
+                </section>
+        
+
+
+
+<!-- contact section ends -->
+
+
+
+
+
+
+
+    <!-- custom js file link -->
+    
+    
+</body>
+</html>

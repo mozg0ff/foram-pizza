@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="image/icon3.png" type="image/png">
+
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+
+<!-- header section starts -->
+
+
+<!-- Тут должен быть Логотип -->
+ <header class="header">
+<a href="index.html" >
+    <img src="image/1.png" style="width: 100px; height: auto;" alt="">
+</a>
+
+<!-- <img class="hero" src="image/10.png" alt=""> -->
+
+
+<nav class="navbar">
+    <a href="index.html">Главная</a>
+    <a href="index.html">О нас</a>
+    <a href="#menu">Меню</a>
+    <!-- <a href="#products">Продукты</a> -->
+    <a href="#review">Обзор</a>
+    <!-- <a href="#blog">Блог</a> -->
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="icons">
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-bars" id="menu-btn"></div>
+</div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Найти продукт...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/2.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 1</h3>
+                <div class="price">45 COM/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/3.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 2</h3>
+                <div class="price">40 COM/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/4.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 3</h3>
+                <div class="price">45 COM/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Оплатить</a>
+    </div>
+
+
+
+</header>
+<!-- header section ends -->
+
+
+<!-- menu section starts -->
+
+<section class="menu" id="menu">
+
+   <h1 class="heading" style="padding-top: 60px;"> Наше <span>меню</span> </h1>
+
+    <div class="box-container">
+
+        <a href="#kebab">
+            <div class="content _anim-show box">
+                <img src="image/category/12.png" style="width: 200px; height: auto; " alt="">
+                <h1>Кебабы</h1>
+                <p>Квартал, Роял, Полный фарш, Микс форам, Амиго бургер...</p>
+            </div> 
+        </a>
+
+        <a href="#second">
+            <div class="content _anim-show box">
+                <img src="image/category/13.png" style="width: 200px; height: auto; " alt="">
+                <h1>Вторые блюда</h1>
+                <p>вырезка, фарш, куриный, печень, рулет, баранина, говядина...</p>
+            </div>
+        </a>
+
+    </div>
+
+</section>
+
+<!-- kebab section -->
+<section class="kebab" id="kebab">
+
+    <h1 class="heading">Кебаб <span>шашлыки</span></h1>
+
+    <div class="kebab-kontainer">
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/1.png" style="width: 200px; height: auto;" alt="">
+            <h3>печень</h3>
+            <div class="price"> <span class="spancolor">160 гр.</span> цена: 20с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/2.png" style="width: 200px; height: auto;" alt="">
+            <h3>овощи</h3>
+            <div class="price"> <span class="spancolor">160 гр.</span> цена: 16с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/3.png" style="width: 200px; height: auto;" alt="">
+            <h3>кусковой бараний</h3>
+            <div class="price"> <span class="spancolor">150 гр.</span> цена: 28с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/10.png" style="width: 200px; height: auto;" alt="">
+            <h3>кусковой говяжий</h3>
+            <div class="price"> <span class="spancolor">150 гр.</span> цена: 28с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/4.png" style="width: 200px; height: auto;" alt="">
+            <h3>грибы</h3>
+            <div class="price"> <span class="spancolor">140 гр.</span> цена: 19с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/5.png" style="width: 200px; height: auto;" alt="">
+            <h3>кукуруза</h3>
+            <div class="price"> <span class="spancolor">160 гр.</span> цена: 16с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/6.png" style="width: 200px; height: auto;" alt="">
+            <h3>крылышки</h3>
+            <div class="price"> <span class="spancolor">320 гр.</span> цена: 30с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/7.png" style="width: 200px; height: auto;" alt="">
+            <h3>куриный</h3>
+            <div class="price"> <span class="spancolor">150 гр.</span> цена: 20с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/8.png" style="width: 200px; height: auto;" alt="">
+            <h3>риждуван</h3>
+            <div class="price"> <span class="spancolor">170 гр.</span> цена: 28с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/9.png" style="width: 200px; height: auto;" alt="">
+            <h3>вырезка</h3>
+            <div class="price"> <span class="spancolor">180 гр.</span> цена: 33с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/11.png" style="width: 200px; height: auto;" alt="">
+            <h3>форам кебаб</h3>
+            <div class="price"> <span class="spancolor">320 гр.</span> цена: 26с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/12.png" style="width: 200px; height: auto;" alt="">
+            <h3>рулет</h3>
+            <div class="price"> <span class="spancolor">150 гр.</span> цена: 28с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/13.png" style="width: 200px; height: auto;" alt="">
+            <h3>фарш</h3>
+            <div class="price"> <span class="spancolor">150 гр.</span> цена: 22с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/14.png" style="width: 200px; height: auto;" alt="">
+            <h3>сосиски</h3>
+            <div class="price"> <span class="spancolor">160 гр.</span> цена: 19с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/15.png" style="width: 200px; height: auto;" alt="">
+            <h3>сырный</h3>
+            <div class="price"> <span class="spancolor">150 гр.</span> цена: 21с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="box3">
+            <img src="image/shashlik/16.png" style="width: 200px; height: auto;" alt="">
+            <h3>ассорти 1</h3>
+            <p>1шт говядина, 1шт бараний, 1шт кукурузный, 1шт овощи</p>
+            <div class="price">цена: 136с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/17.png" style="width: 200px; height: auto;" alt="">
+            <h3>ассорти 2</h3>
+            <p>1шт крылышки, 1шт риждуван, 1шт фарш, 1шт вырезка </p>
+            <div class="price">цена: 136с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/18.png" style="width: 200px; height: auto;" alt="">
+            <h3>ассорти 3</h3>
+            <p>1шт овощи, 1шт вырезка, 1шт куриный, 1шт рулет</p>
+            <div class="price">цена: 136с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/20.png" style="width: 200px; height: auto;" alt="">
+            <h3>ассорти 4</h3>
+            <p>1шт грибы, 1шт риждуван, 1шт крылышки, 1шт говядина</p>
+            <div class="price">цена: 136с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box3">
+            <img src="image/shashlik/19.png" style="width: 200px; height: auto;" alt="">
+            <h3>ассорти 5</h3>
+            <p>1шт печень, 1шт бараний, 1шт рулет, 1шт сырный</p>
+            <div class="price">цена: 136с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+</section>
+
+<!-- second section -->
+
+<section class="second" id="second">
+
+    <h1 class="heading">Вторые <span>блюда</span></h1>
+
+    <div class="second-container">
+
+        <div class="content _anim-show box12">
+            <img src="image/shashlik/22.png" style="width: 200px; height: auto;" alt="">
+            <h3>крылышки</h3>
+            <p>вкусные крылышки, салат морковь, красная капуста, красный лук, хрустящая картошка, лаваш, вкусный томатный соус, мамины чапати</p>
+            <div class="price">цена: 54с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/shashlik/23.png" style="width: 200px; height: auto;" alt="">
+            <h3>вырезка</h3>
+            <p>невероятная вырезка, лаваш, хрустящая картошка, красная капуста, красный лук, салат морковь, вкусный томатный соус, мамины чапати</p>
+            <div class="price">цена: 57с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/shashlik/24.png" style="width: 200px; height: auto;" alt="">
+            <h3>фарш</h3>
+            <p>нежный фарш, мамины чапати, лаваш, хрустящая картошка, салат морковь, красный лук, красная капуста, вкусный томатный соус</p>
+            <div class="price">цена: 42с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/shashlik/25.png" style="width: 200px; height: auto;" alt="">
+            <h3>говядина</h3>
+            <p>Неповторимая говядина, красный лук, красная капуста, салат морковь, лаваш, хрустящая картошка, вкусный томатный соус, мамины чапати </p>
+            <div class="price">цена: 56с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/shashlik/26.png" style="width: 200px; height: auto;" alt="">
+            <h3>печень</h3>
+            <p>сочная печень, салат морковь, красный лук, красная капуста, хрустящая картошка, лаваш, вкусный томатный соус, мамины чапати</p>
+            <div class="price">цена: 42с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/shashlik/27.png" style="width: 200px; height: auto;" alt="">
+            <h3>куриный</h3>
+            <p>курятина от фермера, красный лук, мамины чапати, красная капуста, хрустящая картошка, лаваш, вкусный томатный соус, салат морковь</p>
+            <div class="price">цена: 44с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/shashlik/28.png" style="width: 200px; height: auto;" alt="">
+            <h3>баранина</h3>
+            <p>гиссарская баранина, красный лук, мамины чапати, красная капуста, хрустящая картошка, лаваш, вкусный томатный соус, салат морковь</p>
+            <div class="price">цена: 56с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/shashlik/29.png" style="width: 200px; height: auto;" alt="">
+            <h3>рулет</h3>
+            <p>аппетитный рулет, хрустящая картошка, салат морковь, красный лук, лаваш, красная капуста, вкусный томатный соус, мамины чапати</p>
+            <div class="price">цена: 48с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/shashlik/30.png" style="width: 200px; height: auto;" alt="">
+            <h3>риждуван</h3>
+            <p>риждуван от шефа, хрустящая картошка, салат морковь, красный лук, лаваш, красная капуста, вкусный томатный соус, мамины чапати</p>
+            <div class="price">цена: 48с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+
+    </div>
+</div>
+
+
+</section>
+
+
+
+
+    <!-- custom js file link -->
+    
+    
+</body>
+</html>

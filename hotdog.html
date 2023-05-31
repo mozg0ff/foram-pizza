@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="image/icon3.png" type="image/png">
+
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+
+<!-- header section starts -->
+
+
+<!-- Тут должен быть Логотип -->
+ <header class="header">
+<a href="index.html">
+    <img src="image/1.png" style="width: 100px; height: auto;" alt="">
+</a>
+
+<!-- <img class="hero" src="image/10.png" alt=""> -->
+
+
+<nav class="navbar">
+    <a href="index.html">Главная</a>
+    <a href="#about">О нас</a>
+    <a href="#menu">Меню</a>
+    <!-- <a href="#products">Продукты</a> -->
+    <a href="#review">Обзор</a>
+    <!-- <a href="#blog">Блог</a> -->
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="icons">
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-bars" id="menu-btn"></div>
+</div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Найти продукт...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/2.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 1</h3>
+                <div class="price">45 COM/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/3.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 2</h3>
+                <div class="price">40 COM/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/4.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 3</h3>
+                <div class="price">45 COM/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Оплатить</a>
+    </div>
+
+</header>
+<!-- header section ends -->
+
+<!-- menu section starts -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading" style="padding-top: 60px;"> Наше <span>меню</span> </h1>
+
+    <div class="box-container">
+
+        <a href="#hotdog">
+            <div class="content _anim-show box">
+                <img src="image/category/11.png" style="width: 200px; height: auto;" alt="">
+                <h1>Хот-доги</h1>
+                <p>восток, чикен, биф, джуниор, форам, душанбинский...</p>
+            </div> 
+        </a>
+
+        <a href="#burger">
+            <div class="content _anim-show box">
+                <img src="image/category/2.png" style="width: 200px; height: auto; " alt="">
+                <h1>Бургеры</h1>
+                <p>Квартал, Роял, Полный фарш, Микс форам, Амиго бургер...</p>
+            </div> 
+        </a>
+
+        <a href="#salads">
+            <div class="content _anim-show box">
+                <img src="image/category/5.png" style="width: 200px; height: auto;" alt="">
+                <h1>Салаты</h1>
+                <p>салат "Цезарь", марго, молодежный, салат по французкий, салат "Италия", салат "греческий"</p>
+            </div> 
+        </a>
+
+        <a href="#cartofel">
+            <div class="content _anim-show box">
+                <img src="image/category/8.png" style="width: 200px; height: auto;" alt="">
+                <h1>Натуральная картошка</h1>
+                <p>Натуральный фри, картофель с сыром, сыр-пеперони-фри, ультимат фри...</p>
+            </div> 
+        </a>
+
+        <a href="#strips">
+        <div class="content _anim-show box"> 
+            <img src="image/category/4.png" style="width: 200px; height: auto;" alt="">
+            <h1>стрипсы</h1> 
+            <p>стрипсы классик, стрипсы баффало, стрипсы с перцем, стрипсы тайский...</p>
+        </div> 
+    </a>
+
+    </div>
+</section>
+
+<!-- hot-dogs section -->
+
+<section class="hotdog" id="hotdog">
+
+    <h1 class="heading">хот-доги <span>hot-dog</span></h1>
+
+    <div class="hotdog-container">
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/16.png" style="width: 200px; height: auto;" alt="">
+            <h3>Foram dog</h3>
+            <p>вкусная курочка, фирменный соус, салат-лист, огурчики, папичка.</p>
+            <div class="price">13с.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">l</span> 26c.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">XL</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/8.png" style="width: 200px; height: auto;" alt="">
+            <h3>Класик дог</h3>
+            <p>фирменный соус, сосиска, салат лист, помидоры, огурцы.</p>
+            <div class="price">13с. <span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">L</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/13.png" style="width: 200px; height: auto;" alt="">
+            <h3>Начо-дог</h3>
+            <p>Булочка, сосиска, сыр тысяча островов, халапеньо, томатный соус, чипсы.</p>
+            <div class="price">16с.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">l</span> 26c.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">XL</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/12.png" style="width: 200px; height: auto;" alt="">
+            <h3>Итальянский</h3>
+            <p>булочка для хот-дога, сосиска, Моцарелла, салями, томатный соус, итальянские приправы.</p>
+            <div class="price">12с.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">l</span> 22c.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">XL</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/15.png" style="width: 200px; height: auto;" alt="">
+            <h3>чипс-дог</h3>
+            <p>булочка для хот-дога, сосиска, кетчуп, майонез, чипсы со вкусом: сыра</p>
+            <div class="price">12с.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">l</span> 22c.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">XL</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/14.png" style="width: 200px; height: auto;" alt="">
+            <h3>BBQ dog</h3>
+            <p>булочка для хот-дога, мяса нарезная, пеперони, соус-барбекю</p>
+            <div class="price">20с.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">l</span> 30c.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">XL</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/3.png" style="width: 200px; height: auto;" alt="">
+            <h3>chicken-Дог</h3>
+            <p>булочка для хот-дога, сосиски, кур-филе, салат-лист, огурцы</p>
+            <div class="price">11.5с.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">l</span> 18.5c.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">XL</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/2.png" style="width: 200px; height: auto;" alt="">
+            <h3>чили-дог</h3>
+            <p>булочка для хот-дога, сосиски, салат-лист, марин-огурцы, лук, халапеньо</p>
+            <div class="price">13с.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">l</span> 23c.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">XL</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/11.png" style="width: 200px; height: auto;" alt="">
+            <h3>breakfast-дог</h3>
+            <p>булочка для хот-дога, сосиски, салат-лист, картошка, кетчуп, жареное яйцо</p>
+            <div class="price">10с.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">l</span> 18c.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">XL</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box5">
+            <img src="image/hot-dogs/17.png" style="width: 200px; height: auto;" alt="">
+            <h3>foram classic</h3>
+            <p>соус"Форам", сосиски, морковный салат, фри, кетчуп</p>
+            <div class="price">10с.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">l</span> 18c.<span style="color: rgb(248, 244, 244); border: solid; border-color: red; background: red; border-radius: 5px;">XL</span></div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    </div>
+</section>
+
+<!-- burger section -->
+<section class="burger" id="burger">
+
+    <h1 class="heading">Бургеры <span>burger</span></h1>
+
+    <div class="burger-container">
+
+        <div class="content _anim-show box4">
+            <img src="image/burgers/2.png" style="width: 200px; height: auto;" alt="">
+            <h3>Амиго бургер</h3>
+            <p>куриный филе, болгар-перец, картошка по деревенский</p>
+            <div class="price"> <span class="spancolor">215 гр.</span> цена 28с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box4">
+            <img src="image/burgers/7.png" style="width: 200px; height: auto;" alt="">
+            <h3>полный фарш</h3>
+            <p>котлета, салат-лист, помидоры, марин-огурцы, соус форам, сыр чеддер, кетчуп, сыр моцарелла</p>
+            <div class="price"> <span class="spancolor">220 гр.</span> цена 31с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box4">
+            <img src="image/burgers/4.png" style="width: 200px; height: auto;" alt="">
+            <h3>микс форам бургер</h3>
+            <p>контр-филе, болгар-перец, картошка фри</p>
+            <div class="price"> <span class="spancolor">220 гр.</span> цена 31с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box4">
+            <img src="image/burgers/6.png" style="width: 200px; height: auto;" alt="">
+            <h3>квартал</h3>
+            <p>вкусная курица (Pepers), огурцы, салат-лист, фирменный соус</p>
+            <div class="price"> <span class="spancolor">220 гр.</span> цена: 31с</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    </div>
+</section>
+
+<!-- salads section -->
+
+<section class="salads" id="salads">
+
+    <h1 class="heading">Салаты <span>salads</span></h1>
+
+    <div class="salads-container">
+
+        <div class="content _anim-show box7">
+            <img src="image/salads/1.png" style="width: 200px; height: auto;" alt="">
+            <h3>Италия</h3>
+            <p>салат-лист, кукуруза, кур-филе, помидоры, картофель</p>
+            <div class="price">цена: 26c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box7">
+            <img src="image/salads/2.png" style="width: 200px; height: auto;" alt="">
+            <h3>греческий</h3>
+            <p>огурцы, салат-лист, сыр-фета, базилик, лимон, маслины, помидор, болгар-перец</p>
+            <div class="price">цена: 23c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box7">
+            <img src="image/salads/3.png" style="width: 200px; height: auto;" alt="">
+            <h3>французкий</h3>
+            <p>помидор, лук, болгар-перец, огурцы, филе говяжий, салат-лист, французкий соус</p>
+            <div class="price">цена: 27c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box7">
+            <img src="image/salads/4.png" style="width: 200px; height: auto;" alt="">
+            <h3>молодежный</h3>
+            <p>кукуруза, зеленый горох, сухарики,  салат-лист, помидор, перец</p>
+            <div class="price">цена: 23c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box7">
+            <img src="image/salads/5.png" style="width: 200px; height: auto;" alt="">
+            <h3>Цезарь</h3>
+            <p>салат-лист, помидоры, кур-филе, белый хлеб, соус цезарь, слив-масло, сыр пармезан</p>
+            <div class="price">цена: 23c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    </div>
+</section>
+
+<!-- natural cartofel -->
+        
+<section class="cartofel" id="cartofel">
+
+    <h1 class="heading">Натуральная картошка <span>natural potatoes</span></h1>
+
+    <div class="cartofel-container">
+
+        <div class="content _anim-show box9">
+            <img src="image/natural-cartofel/1.png" style="width: 150px; height: auto;" alt="">
+            <h3>картофель с сыром</h3>
+            <div class="price">цена: 14c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box9">
+            <img src="image/natural-cartofel/2.png" style="width: 150px; height: auto;" alt="">
+            <h3>Натуральный фри</h3>
+            <div class="price">цена: 12c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box9">
+            <img src="image/natural-cartofel/3.png" style="width: 150px; height: auto;" alt="">
+            <h3>ультимат картофель</h3>
+            <div class="price">цена: 22c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box9">
+            <img src="image/natural-cartofel/4.png" style="width: 150px; height: auto;" alt="">
+            <h3>сыр, пеперони, картофель</h3>
+            <div class="price">цена: 20c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+    </div>
+</section>
+
+<section class="strips" id="strips">
+
+    <h1 class="heading">Стрипсы <span>strips</span></h1>
+
+    <div class="strips-container">
+
+        <div class="content _anim-show box12">
+            <img src="image/strips/сжатые/1.png" style="width: 150px; height: auto;" alt="">
+            <h3>стрипсы классик</h3>
+            <div class="price"><span class="spancolor">200г.</span> цена: 28c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/strips/сжатые/4.png" style="width: 150px; height: auto;" alt="">
+            <h3>стрипсы баффало</h3>
+            <div class="price"><span class="spancolor">200г.</span> цена: 31c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/strips/сжатые/4.png" style="width: 150px; height: auto;" alt="">
+            <h3>тайские стрипсы</h3>
+            <div class="price"><span class="spancolor">200г.</span> цена: 31c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+        <div class="content _anim-show box12">
+            <img src="image/strips//сжатые/3.png" style="width: 150px; height: auto;" alt="">
+            <h3>стрипсы с перчинкой</h3>
+            <div class="price"><span class="spancolor">200г.</span> цена: 31c.</div>
+            <a href="#" class="btn">добавить</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+    
+</body>
+</html>

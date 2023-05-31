@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" href="image/icon3.png" type="image/png">
+
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+
+<!-- header section starts -->
+
+
+<!-- Тут должен быть Логотип -->
+ <header class="header">
+<a class="logo"  href="index.html">
+    <img src="image/1.png" style="width: 100px; height: auto;" alt="">
+</a>
+
+<!-- <img class="hero" src="image/10.png" alt=""> -->
+
+
+<nav class="navbar">
+    <a href="#home">Главная</a>
+    <a href="#about">О нас</a>
+    <a href="#menu">Меню</a>
+    <!-- <a href="#products">Продукты</a> -->
+    <a href="#review">Коментарии</a>
+    <!-- <a href="#blog">Блог</a> -->
+    <a href="#contact">Вход</a>
+</nav>
+
+<div class="icons">
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-bars" id="menu-btn"></div>
+</div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Найти продукт...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/2.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 1</h3>
+                <div class="price">45 COM/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/3.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 2</h3>
+                <div class="price">40 COM/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="image/4.png" style="width:80px; height: auto;" alt="">
+            <div class="content">
+                <h3>Товар в корзине 3</h3>
+                <div class="price">45 COM/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Оплатить</a>
+    </div>
+
+
+
+</header>
+<!-- header section ends -->
+
+
+<!-- home section starts -->
+<section class="home" id="home">
+    
+    <div class="content">
+        <h3 class="content content-no-hide">Приходите к нам! У нас каждый день новинки.</h3>
+        <p class="content content-no-hide">Каждая деталь интерьера, каждое блюдо в меню имеет свою историю. Неповторимая атмосфера и приятная музыка — то, чего так не хватает в ритме городской суеты. </p>
+    </div>
+
+</section>
+<!-- home section ends -->
+
+
+<!-- about section starts -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"><span>О</span> нас </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/from section/1.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="_anim-show">что делает нашу пиццу особенной?</h3>
+            <p class="_anim-show">Это наивысшее качество каждого игредиента: начиная с муки и заканчивая последними штрихами приготовления любой пиццы - свежайшим зеленым базиликом и оливковым маслом первого отжима.</p>
+            <p class="_anim-show">Можно долго рассказывать о нашей пицце, но лучше просто попробовать.</p>
+            <!-- <a href="#" class="btn">Подробнее</a> -->
+        </div>
+
+    </div>
+
+
+
+</section>
+<!-- about section ends -->
+
+
+<!-- menu section starts -->
+
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> Наши <span>Кухни</span> </h1>
+
+    <div class="box-container">
+        
+        <a href="pizza.html">
+        <div class="content _anim-show box">
+            <img class="menu-image" src="image/page/3.png" style="width: 270px; height: auto; " alt="">
+            <h1>Форам Пицца</h1>
+            <p>Душанбе, баварская, Француское ассорти, Итальянское ассорти, форам...</p>
+        </div> 
+    </a>
+
+        <a href="kebab.html">
+        <div class="content _anim-show box">
+            <img src="image/category/12.png" style="width: 200px; height: auto; " alt="">
+            <h1>Форам Кебаб</h1>
+            <p>Квартал, Роял, Полный фарш, Микс форам, Амиго бургер...</p>
+        </div> 
+    </a>
+
+        <a href="hotdog.html">
+        <div class="content _anim-show box">
+            <img src="image/category/11.png" style="width: 200px; height: auto;" alt="">
+            <h1>Форам ход-дог</h1>
+            <p>восток, чикен, биф, джуниор, форам, душанбинский...</p>
+        </div> 
+    </a>
+</section>
+
+        
+
+
+
+<!-- contact section ends -->
+
+
+
+
+
+
+
+    <!-- custom js file link -->
+
+
+    
+    <section class="review" id="review">
+
+        <h1 class="heading">Коментарии <span>пользователей</span></h1>
+        
+        <div class="box-container">
+        
+            <div class="box">
+                <img src="image/quote/4.png" alt="" class="quote" style="width: 50px; height: auto;">
+                <p class="content _anim-show">Заказывала пиццу,это просто бомба!!!!! Спасибо большое,поварам!!!!!!Если заказывать,то только у вас!</p>
+                <img src="image/quote/quote2/1.png" class="user" alt="" style="width: 200px; height: auto;">
+                <h3>Одил</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="image/quote/4.png" alt="" class="quote" style="width: 50px; height: auto;">
+                <p class="content _anim-show">Впервые заказывал у Вас по рекомендациям, пицца, картошка все понравилось, очень очень вкусно, быстрая доставка, так держать!</p>
+                <img src="image/quote/quote2/2.png" class="user" alt="" style="width: 200px; height: auto;">
+                <h3>Исо</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="image/quote/4.png" alt="" class="quote" style="width: 50px; height: auto;">
+                <p class="content _anim-show">Прям все очень достойно. Давно не ел такой действительно очень вкусной пиццы! Прям рекомендую!!!! </p>
+                <img src="image/quote/quote2/3.png" class="user" alt="" style="width: 200px; height: auto;">
+                <h3>мусо</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+        <!-- review section ends -->
+        
+        <!-- contact section starts -->
+        
+        <section class="contact" id="contact">
+        
+        <h1 class="heading">Наш <span>Адрес</span></h1>
+        
+        <div class="row">
+        
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.12807581115!2d68.74512457651132!3d38.553862866900275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d1964b63c4c3%3A0xf8ac5088c55ade83!2sForam%20pizza%20%26%20cafe!5e0!3m2!1sru!2s!4v1685019447865!5m2!1sru!2s" allowfullscreen="" loading="lazy"></iframe>
+        
+            <form action="">
+                <h3>Вход/Регистрация</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="Связаться" class="btn">
+            </form>
+        </div>
+        </section>
+
+        <!-- footer section starts -->
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>Адрес</h3>
+                    <a>79, Маяковский, Душанбе</a>
+                </div>
+
+                <div class="box">
+                    <h3>Быстрые ссылки</h3>
+                    <a href="#home">Главная</a>
+                    <a href="#about">О нас</a>
+                    <a href="#menu">Меню</a>
+                    <a href="#review">Коментарии</a>
+                    <a href="#contact">Вход</a>
+                </div>
+
+                <div class="box">
+                    <h3>Контактная информация</h3>
+                    <a href="tel: +992889994433"> +992889994433</a>
+                    <!-- <a href="#"></a>
+                    <a href="#"></a> -->
+                </div>
+
+                <div class="box">
+                    <h3>Подписывайтесь на нас</h3>
+                    <a href="https://www.facebook.com/forampizza/" target="_blank">facebook</a>
+                    <a href="https://www.instagram.com/forampizza.tj/" target="_blank">instagram</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.foodpicasso.forampizza" target="_blank">Foram pizza Душанбе</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.foodpicasso.foramkebab" target="_blank">Foram kebab </a>
+                </div>
+
+            </div>
+
+            <a href="https://www.instagram.com/mozg0ff/" target="_blank">
+            <div class="credit"> copyright @ 2023 by <span style="text-transform: lowercase;">mozg0ff</span> </div>
+        </a>
+        </section>
+
+
+        <!-- footer section ends -->
+</body>
+</html>
